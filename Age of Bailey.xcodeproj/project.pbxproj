@@ -21,6 +21,12 @@
 		266CE22B19A06312003AFF26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266CE20D19A06312003AFF26 /* UIKit.framework */; };
 		266CE23319A06312003AFF26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 266CE23119A06312003AFF26 /* InfoPlist.strings */; };
 		266CE23519A06312003AFF26 /* Age_of_BaileyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 266CE23419A06312003AFF26 /* Age_of_BaileyTests.m */; };
+		266CE23F19A06622003AFF26 /* bailey1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 266CE23E19A06622003AFF26 /* bailey1.jpg */; };
+		267B0EE619A474490042E6B9 /* 2P3A0063.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267B0EE519A474490042E6B9 /* 2P3A0063.jpg */; };
+		267B0EE819A476570042E6B9 /* bailey4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267B0EE719A476570042E6B9 /* bailey4.jpg */; };
+		267B0EEA19A476700042E6B9 /* bailey6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267B0EE919A476700042E6B9 /* bailey6.jpg */; };
+		267B0EEC19A4767D0042E6B9 /* bailey2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267B0EEB19A4767D0042E6B9 /* bailey2.jpg */; };
+		267B0EEE19A476870042E6B9 /* bailey3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267B0EED19A476870042E6B9 /* bailey3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		266CE23019A06312003AFF26 /* Age of BaileyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of BaileyTests-Info.plist"; sourceTree = "<group>"; };
 		266CE23219A06312003AFF26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		266CE23419A06312003AFF26 /* Age_of_BaileyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_BaileyTests.m; sourceTree = "<group>"; };
+		266CE23E19A06622003AFF26 /* bailey1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bailey1.jpg; sourceTree = "<group>"; };
+		267B0EE519A474490042E6B9 /* 2P3A0063.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2P3A0063.jpg; sourceTree = "<group>"; };
+		267B0EE719A476570042E6B9 /* bailey4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bailey4.jpg; sourceTree = "<group>"; };
+		267B0EE919A476700042E6B9 /* bailey6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bailey6.jpg; sourceTree = "<group>"; };
+		267B0EEB19A4767D0042E6B9 /* bailey2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bailey2.jpg; sourceTree = "<group>"; };
+		267B0EED19A476870042E6B9 /* bailey3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bailey3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +138,12 @@
 		266CE21019A06312003AFF26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				267B0EED19A476870042E6B9 /* bailey3.jpg */,
+				267B0EEB19A4767D0042E6B9 /* bailey2.jpg */,
+				267B0EE919A476700042E6B9 /* bailey6.jpg */,
+				267B0EE719A476570042E6B9 /* bailey4.jpg */,
+				267B0EE519A474490042E6B9 /* 2P3A0063.jpg */,
+				266CE23E19A06622003AFF26 /* bailey1.jpg */,
 				266CE21119A06312003AFF26 /* Age of Bailey-Info.plist */,
 				266CE21219A06312003AFF26 /* InfoPlist.strings */,
 				266CE21519A06312003AFF26 /* main.m */,
@@ -229,8 +247,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				266CE22219A06312003AFF26 /* Images.xcassets in Resources */,
+				266CE23F19A06622003AFF26 /* bailey1.jpg in Resources */,
+				267B0EEC19A4767D0042E6B9 /* bailey2.jpg in Resources */,
+				267B0EE819A476570042E6B9 /* bailey4.jpg in Resources */,
+				267B0EEA19A476700042E6B9 /* bailey6.jpg in Resources */,
+				267B0EEE19A476870042E6B9 /* bailey3.jpg in Resources */,
 				266CE21419A06312003AFF26 /* InfoPlist.strings in Resources */,
 				266CE21D19A06312003AFF26 /* Main.storyboard in Resources */,
+				267B0EE619A474490042E6B9 /* 2P3A0063.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +480,7 @@
 				266CE23A19A06312003AFF26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		266CE23B19A06312003AFF26 /* Build configuration list for PBXNativeTarget "Age of BaileyTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				266CE23D19A06312003AFF26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
